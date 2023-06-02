@@ -1,0 +1,34 @@
+.contenedor {
+    margin: 20px solid;
+    border: none;
+    border-radius: 20px;
+    background-color: #41a819;
+    border: rgb(255, 255, 255) 2px dashed;
+}
+
+/* @font-face {
+    font-family: 'Creepster';
+    src: url('fonts/creepster-font.woff2') format('woff2'),
+         url('fonts/creepster-font.woff') format('woff');
+    /* Agrega otros formatos de archivo de la fuente si los tienes disponibles */
+/* Asegúrate de proporcionar rutas de archivo correctas según la ubicación de tu fuente descargada */
+
+.botonClose {
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border: none;
+}
+
+.nombre {
+    font-family: 'Creepster';
+    color: #eefcee;
+    justify-content: center;
+    font-style: oblique;
+}
+
+.description {
+    padding-left: 20px;
+    text-align: start;
+}

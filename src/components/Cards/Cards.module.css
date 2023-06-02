@@ -1,0 +1,7 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    padding: 35px;
+    padding-top: 200px;
+}
