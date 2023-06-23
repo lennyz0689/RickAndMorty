@@ -1,11 +1,11 @@
 import style from './SearchBar.module.css'
 
-function SearchBar({characterID}) {
+function SearchBar({onSearch}) {
    return (
       <div className={style.search}>
          <div className={style.buscar}>
          <input type='search'/>
-         <button onClick={characterID}>Agregar</button>
+         <button onClick={onSearch}>Agregar</button>
          </div>
       </div>
    );
